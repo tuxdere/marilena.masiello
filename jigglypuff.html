@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biglietto di Auguri</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+            background-color: #f0f8ff;
+
+        }
+
+        .card {
+
+            border: 2px solid #ff69b4;
+
+            border-radius: 15px;
+
+            padding: 20px;
+
+            margin: 50px auto;
+
+            width: 300px;
+
+            background-color: #fff;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .jigglypuff {
+
+            width: 150px;
+
+            height: auto;
+
+            animation: bounce 2s infinite;
+
+        }
+
+        @keyframes bounce {
+
+            0%, 20%, 50%, 80%, 100% {
+
+                transform: translateY(0);
+
+            }
+
+            40% {
+
+                transform: translateY(-30px);
+
+            }
+
+            60% {
+
+                transform: translateY(-15px);
+
+            }
+
+        }
+
+        .message {
+
+            font-size: 1.2em;
+
+            color: #ff69b4;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Buon compleanno raggio di nebbia</h1>
+
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png" alt="Jigglypuff" class="jigglypuff">
+
+        <p class="message">Jigglypuff ti canta una dolce melodia tra una brioche alla crema e l'altra</p>
+
+        <audio controls>
+
+            <source src="jigglypuff-song.mp3" type="audio/mpeg">
+
+            Il tuo browser non supporta l'elemento audio.
+
+        </audio>
+
+    </div>
+
+</body>
+
+</html>
